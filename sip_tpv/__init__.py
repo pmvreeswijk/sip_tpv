@@ -4,4 +4,4 @@ from .pv_to_sip import pv_to_sip
 import importlib.metadata
 
 #__version__ = pkg_resources.get_distribution("sip_tpv").version
-version = importlib.metadata.version("sip_tpv")
+__version__ = importlib.metadata.version("sip_tpv")
